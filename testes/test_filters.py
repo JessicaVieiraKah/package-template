@@ -1,4 +1,7 @@
+import sys
+sys.path.append('C:/Users/Jessica/cat_image_processor')
 from cat_processor.filters import apply_grayscale
+
 
 def test_apply_grayscale(tmp_path):
     input_image = "IMG_20230811_213941_027.jpg"

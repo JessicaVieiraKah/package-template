@@ -1,4 +1,7 @@
+import sys
+sys.path.append('C:/Users/Jessica/cat_image_processor')
 from cat_processor.utils import is_cat_image
+
 
 def test_is_cat_image():
     cat_image = "tests/sample_cat.jpg"  # Imagem de teste com um gato
